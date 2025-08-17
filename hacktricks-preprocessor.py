@@ -75,7 +75,7 @@ def ref(matchobj):
                     logger.debug(f'Recursive title search result: {chapter["name"]}')
             except Exception as e:
                 logger.debug(e)
-                logger.error(f'Error getting chapter title: {path.normpath(path.join(dir,Error getting chapter title))}')
+                logger.error(f"Error getting chapter title: {path.normpath(path.join(dir, 'Error getting chapter title'))}")
                 sys.exit(1)
 
 
